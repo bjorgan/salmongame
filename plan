@@ -1,0 +1,13 @@
+fisk som skal opp elva
+bjørn som går rundt og tar fisken
+når laksen når målet kan de gyte og dø
+bjørnen kan fange laksen og ta den med tilbake til huset sitt for å dyppe den i honning, men laksen kan stikke av om de hopper. 
+laksen kan hoppe opp og ned i elva
+kan også hoppe ut av elva. SECRET EASTER EGG: de kan hoppe helt ut av elva og gyte opp i et tre istedet. 
+hoppanimasjon, svømmeanimasjon, gyteanimasjon. 
+bjørneslaganimasjon
+plaskelydeffekter
+slageffekter
+bjørnelyder
+
+klient-server-arkitektur. Lag klasser med helt generelle interfjes som kan ta imot ett eller annet styresignal, og la styresignalet komme fra noe concurrent serveropplegg. 
