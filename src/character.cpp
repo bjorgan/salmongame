@@ -33,6 +33,21 @@ void Bear::drawSprite(SDL_Surface *screen){
 	boxRGBA(screen, eye_x + eye_dist/2 , eye_y, x + eye_dist/2 + eye_width, eye_y - eye_height, 255, 255, 0, 255);
 }
 
+Salmon::Salmon(int x, int y) : Character(x, y){
+	width = 200;
+	height = 100;
+}
+
+void Salmon::drawSprite(SDL_Surface *screen){
+	int eye_y = get_y() + eye_y_diff;
+	int eye_x = get_x() + eye_x_diff;
+	int x = get_x();
+	int y = get_y();
+
+	//body
+	boxRGBA(screen, x - width/2, y - height/2, x + width/2, y + height/2, 200, 200, 200, 255);
+}
+
 //void Character::move(Direction direction){
 //	if (!dead){
 //		switch direction{

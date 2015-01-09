@@ -36,6 +36,24 @@ class Bear : public Character{
 		int eye_x_diff;
 };
 
+class Salmon : public Character{
+	public:
+		Salmon(int x, int y);
+		virtual void drawSprite(SDL_Surface *screen);
+	private:
+		int width;
+		int height;
+		
+		int eye_width;
+		int eye_height;
+		int curr_eye_height;
+		int eye_dist;
+
+		int eye_y_diff;
+		int eye_x_diff;
+		
+};
+
 
 
 
