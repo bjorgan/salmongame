@@ -39,8 +39,6 @@ Salmon::Salmon(int x, int y) : Character(x, y){
 }
 
 void Salmon::drawSprite(SDL_Surface *screen){
-	int eye_y = get_y() + eye_y_diff;
-	int eye_x = get_x() + eye_x_diff;
 	int x = get_x();
 	int y = get_y();
 
